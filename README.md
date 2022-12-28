@@ -11,6 +11,15 @@ A set of TypeScript related notes used for quick reference. The cheatsheet conta
 TypeScript is a very powerful addition to JavaScript. TypeScript is developed by Microsoft and is increasingly supported by the day  by technologies such as Angular, Vue.js 3, React.js, and many others.
 
 As TypeScript code can be compiled to ES5, it includes all of the native JavaScript features such as spread arrow function, deconstructors, and introduces some **very** useful features such as decorators, generics and interfaces, enums, modules, among others which can be found in different programming languages.
+
+TypeScript is not an entirely new language it’s a superset of JavaScript so that means any valid JavaScript code is also valid TypeScript code but TypeScript has additional features that do not exist in current version of JavaScript.
+
+### TypeScript Concepts
+
+Strong or static typing — such as in languages like C# and Java when we define variables we need to specify the type of that variable.
+Object-oriented features — that was not in Javascript. Now we have the concept of classes, interfaces, constructors, access modifiers like public and private available in Typescript.
+Compile-time errors — we can catch errors at compile time instead of at runtime — not all kind of errors but a lot of errors. We can catch these errors at compile time and fix them before deploying our application.
+
 <br>
 
 ---
