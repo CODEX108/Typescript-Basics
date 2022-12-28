@@ -257,5 +257,5 @@ Writing complex and long types can quickly become dull and impractical. For a DR
   };
 ```
 
-#References
+# References
 - rmolinamir typescript-cheatsheet
