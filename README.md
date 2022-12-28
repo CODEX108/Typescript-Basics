@@ -16,9 +16,9 @@ TypeScript is not an entirely new language it’s a superset of JavaScript so th
 
 ### TypeScript Concepts
 
-Strong or static typing — such as in languages like C# and Java when we define variables we need to specify the type of that variable.
-Object-oriented features — that was not in Javascript. Now we have the concept of classes, interfaces, constructors, access modifiers like public and private available in Typescript.
-Compile-time errors — we can catch errors at compile time instead of at runtime — not all kind of errors but a lot of errors. We can catch these errors at compile time and fix them before deploying our application.
+- Strong or static typing —> such as in languages like C# and Java when we define variables we need to specify the type of that variable.
+- Object-oriented features —> that was not in Javascript. Now we have the concept of classes, interfaces, constructors, access modifiers like public and private available in Typescript.
+- Compile-time errors —> we can catch errors at compile time instead of at runtime — not all kind of errors but a lot of errors. We can catch these errors at compile time and fix them before deploying our application.
 
 <br>
 
