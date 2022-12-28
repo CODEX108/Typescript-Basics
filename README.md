@@ -344,6 +344,17 @@ Arrays may also be destructured in TypeScript, keep in mind that all the assigne
   console.log(result1, result2, result3);
 ```
 
+### Object Destructuring
+
+Just like arrays, the destructured object value pairs will keep their previously assigned types. Keep in mind that when destructuring an object, the declared variable name **must** match the object key to let the compiler know which variable to destructure.
+
+```ts
+  const scientist: { firstName: string, experience: number } = { firstName: 'Robert', experience: 9000 };
+  const { firstName, experience } = scientist;
+
+  console.log(firstName, experience);
+```
+
 
 # References
 - rmolinamir typescript-cheatsheet
