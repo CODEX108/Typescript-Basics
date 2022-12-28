@@ -276,5 +276,74 @@ Variables are not restricted to only one assigned type. This is where union type
   // myRealRealAge = true // Not possible since myRealRealAge only accepts a number or a string.
 ```
 
+---
+
+## ES6
+
+TypeScript natively supports the newer ES6 (A.K.A. ECMAScript 6 and ECMAScript 2015) JavaScript features. As you may have guessed, we can assign types to these new features (e.g. assigning types to an arrow function). Here are some examples:
+
+### Template Literals
+
+```ts
+  const userName = 'Robert';
+  const greeting = `Hello I'm ${userName}`;
+
+  console.log(greeting)
+```
+
+<br>
+
+### Arrow Functions
+
+Arrow function arguments can be assigned any type.
+
+```ts
+  const greet = (name: string = 'Robert') => console.log(`Hello, ${name}`);
+
+  greet('Robert Molina');
+```
+
+<br>
+
+### Default Parameters
+
+Arrow functions may also be defined with default argument values in case no respective arguments were passed, these default parameters may also be of any assigned type.
+
+```ts
+  const greet = (name: string = 'Robert') => console.log(`Hello, ${name}`);
+
+  greet(); // Prints: "Robert"
+```
+
+<br>
+
+### Spread Operators
+
+> Spread syntax allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.
+
+```ts
+  const numbers: number[] = [-3, 33, 38, 5];
+
+  console.log(Math.min(...numbers));
+
+  const newArray: number[] = [55, 20, ...numbers];
+
+  console.log(newArray);
+```
+
+<br>
+
+### Array Destructuring
+
+Arrays may also be destructured in TypeScript, keep in mind that all the assigned types to the array values won't be lost when destructured.
+
+```ts
+  const testResults: number[] = [3.89, 2.99, 1.38];
+  const [result1, result2, result3] = testResults;
+
+  console.log(result1, result2, result3);
+```
+
+
 # References
 - rmolinamir typescript-cheatsheet
