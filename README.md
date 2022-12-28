@@ -266,5 +266,15 @@ Writing complex and long types can quickly become dull and impractical. For a DR
   };
 ```
 
+### Union
+
+Variables are not restricted to only one assigned type. This is where union types come in where we can assign two or more types (e.g. assign `number` and `string`) to a single variable. For example:
+
+```ts
+  let myRealRealAge: number | string = 24;
+  myRealRealAge = '24';
+  // myRealRealAge = true // Not possible since myRealRealAge only accepts a number or a string.
+```
+
 # References
 - rmolinamir typescript-cheatsheet
