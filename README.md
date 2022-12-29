@@ -37,7 +37,7 @@ TypeScript is not an entirely new language it’s a superset of JavaScript so th
 > Another fundamental part of creating programs in JavaScript for webpages and servers alike is working with textual data. As in other languages, we use the type string to refer to these textual datatypes. Just like JavaScript, TypeScript also uses double quotes (") or single quotes (') to surround string data.
 
 ```ts
-  const myName: string = 'Robert';
+  const myName: string = 'Rupert';
 ```
 
 <br>
